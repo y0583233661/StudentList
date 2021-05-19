@@ -1,0 +1,21 @@
+$borderColor:  rgb(82, 79, 79);
+:host{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px, double, $borderColor;
+    width: 100vw;
+
+    label, select{    
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: $borderColor;
+    }
+    label{
+        margin: 50px;
+        display: block;
+    }
+}

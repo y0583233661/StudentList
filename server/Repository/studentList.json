@@ -1,0 +1,29 @@
+[
+  {
+    "ID": 1,
+    "Identity": "322339896",
+    "FirstName": "Yehudit",
+    "LastName": "Gluskinos",
+    "BirthDate": "24/05/2001",
+    "gender": 2,
+    "JoinDate": "18/05/2021"
+  },
+  {
+    "ID": 2,
+    "Identity": "123456789",
+    "FirstName": "Tamar",
+    "LastName": "Gluskinos",
+    "BirthDate": "18/05/2003",
+    "gender": 2,
+    "JoinDate": "18/05/2021"
+  },
+  {
+    "ID": 3,
+    "Identity": "123654789",
+    "FirstName": "Malka",
+    "LastName": "Gluskinos",
+    "BirthDate": "23/08/2003",
+    "gender": 2,
+    "JoinDate": "18/05/2021"
+  }
+]

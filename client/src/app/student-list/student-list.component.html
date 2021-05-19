@@ -1,0 +1,6 @@
+<h1 [ngStyle]="{color: color}">student list</h1>
+<label [ngStyle]="{color: color}">sort by name <input #name type="search" (change)="getByName(name.value, identity)"/></label>
+<label [ngStyle]="{color: color}">sort by identity <input #identity type="search" (change)="getByIdentity(identity.value, name)"/></label>
+<app-student-line-header></app-student-line-header>
+<app-student-line *ngFor = "let s of studentList" [student] = "s" ></app-student-line>
+

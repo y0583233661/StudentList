@@ -1,0 +1,16 @@
+$borderColor:  rgb(82, 79, 79);
+:host{
+    width: min-content;
+    div, span, h1{
+        text-align: center;
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darken($borderColor, $amount: 20);
+    }
+    div{        
+        color: grayscale($borderColor);
+    }
+    h1{
+        color: darken($borderColor, $amount: 30);
+    }
+}

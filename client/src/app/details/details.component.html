@@ -1,0 +1,7 @@
+<h1>Details</h1>
+<div><span [ngStyle]="{color: color}">Identity: </span>{{student.Identity}}</div>
+<div><span [ngStyle]="{color: color}">First Name: </span>{{student.FirstName}}</div>
+<div><span [ngStyle]="{color: color}">Last Name: </span>{{student.LastName}}</div>
+<div><span [ngStyle]="{color: color}">Birth Date: </span>{{student.BirthDate | date: 'dd/MM/yyyy'}}</div>
+<div><span [ngStyle]="{color: color}">gender: </span>{{student.gender == 1? "Male": "Female"}}</div>
+<div><span [ngStyle]="{color: color}">Join Date: </span>{{student.JoinDate | date: 'dd/MM/yyyy'}}</div>

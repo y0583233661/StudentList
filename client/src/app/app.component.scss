@@ -1,0 +1,10 @@
+$borderColor:  rgb(82, 79, 79);
+button{    
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 1px double $borderColor;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: $borderColor;
+}
